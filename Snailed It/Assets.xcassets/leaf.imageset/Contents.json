@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "a8b577ffaffd2b84bde71c4b9a97ef03-maple-leaf-by-vexels.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "a8b577ffaffd2b84bde71c4b9a97ef03-maple-leaf-by-vexels-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "a8b577ffaffd2b84bde71c4b9a97ef03-maple-leaf-by-vexels-2.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

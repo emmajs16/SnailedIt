@@ -18,39 +18,276 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtD-ZI-aKR">
-                                <rect key="frame" x="104" y="609" width="46" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SNAILED IT!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2Y-Bv-jyR">
+                                <rect key="frame" x="45" y="131" width="291" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8i-WE-R2C">
-                                <rect key="frame" x="176" y="609" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="44"/>
+                                <color key="textColor" red="0.83921568627450982" green="0.396078431372549" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbt-44-DIr">
+                                <rect key="frame" x="102" y="353" width="172" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="26"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" red="0.25882352941176467" green="0.15686274509803921" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="b6B-mW-Qdg" kind="presentation" id="06z-6D-k8U"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBw-04-ztv">
-                                <rect key="frame" x="256" y="609" width="46" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The college process is long, but we will guide you at a snail's pace!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvY-Wt-j5z">
+                                <rect key="frame" x="36" y="258.5" width="302" height="19.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AnK-DO-Oj2">
-                                <rect key="frame" x="319" y="609" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syr-1a-UKP">
-                                <rect key="frame" x="16" y="609" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.95294117647058818" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-193" y="76"/>
+            <point key="canvasLocation" x="-194.40000000000001" y="75.112443778110944"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8IF-vf-wc2">
+            <objects>
+                <viewController id="b6B-mW-Qdg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fvf-uw-rcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1MM-i7-Sml">
+                                <rect key="frame" x="45" y="133" width="135" height="135"/>
+                                <color key="backgroundColor" red="0.69019607843137254" green="0.90980392156862744" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="MhS-NM-txG"/>
+                                    <constraint firstAttribute="width" constant="135" id="bjx-Tb-7CG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="15"/>
+                                <state key="normal" title="Visit Colleges">
+                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eDE-jd-wsW" kind="show" id="Org-0q-gnh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgG-wW-Yx2">
+                                <rect key="frame" x="45" y="296" width="135" height="135"/>
+                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="S69-qo-toZ"/>
+                                    <constraint firstAttribute="width" constant="135" id="mtg-W7-hsm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="15"/>
+                                <state key="normal" title="Start Essay">
+                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYj-gn-WH0">
+                                <rect key="frame" x="204" y="133" width="135" height="135"/>
+                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="U2q-Uw-Nki"/>
+                                    <constraint firstAttribute="width" constant="135" id="eUT-1A-rmk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="15"/>
+                                <state key="normal" title="Take ACT/SAT">
+                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PTd-lQ-r2W">
+                                <rect key="frame" x="204" y="296" width="135" height="135"/>
+                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="4Ou-JL-W4G"/>
+                                    <constraint firstAttribute="width" constant="135" id="NpU-2O-51N"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Finalize College List">
+                                            <attributes>
+                                                <color key="NSColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="CourierNewPSMT"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLH-8I-fAy">
+                                <rect key="frame" x="0.0" y="622" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Wh8-9u-r9b"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Summer" id="R9N-l6-0ht"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sSa-yJ-Qj1"/>
+                                    <barButtonItem title="Fall" id="jgN-Ya-BSM"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hbB-87-kyT"/>
+                                    <barButtonItem title="Winter" id="G74-Fb-sBv"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="FzK-GY-Veq"/>
+                                    <barButtonItem title="Spring" id="xNq-6b-L5p"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="kSq-HM-dCM"/>
+                                    <barButtonItem title="Summer" id="lDF-WF-LZA"/>
+                                </items>
+                                <color key="tintColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.95294117647058818" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PTd-lQ-r2W" firstAttribute="leading" secondItem="YgG-wW-Yx2" secondAttribute="trailing" constant="24" id="1YP-wd-6Lk"/>
+                            <constraint firstItem="GYj-gn-WH0" firstAttribute="height" secondItem="1MM-i7-Sml" secondAttribute="height" id="49g-Pm-46F"/>
+                            <constraint firstItem="YgG-wW-Yx2" firstAttribute="height" secondItem="1MM-i7-Sml" secondAttribute="height" id="6ap-BP-zn3"/>
+                            <constraint firstItem="YgG-wW-Yx2" firstAttribute="leading" secondItem="a3F-7t-OYJ" secondAttribute="leading" constant="45" id="A4R-Iu-A8q"/>
+                            <constraint firstItem="bLH-8I-fAy" firstAttribute="leading" secondItem="fvf-uw-rcJ" secondAttribute="leading" id="Crp-jI-dcr"/>
+                            <constraint firstItem="a3F-7t-OYJ" firstAttribute="trailing" secondItem="GYj-gn-WH0" secondAttribute="trailing" constant="36" id="DmV-hj-H6U"/>
+                            <constraint firstAttribute="trailing" secondItem="bLH-8I-fAy" secondAttribute="trailing" id="GwD-d3-OWf"/>
+                            <constraint firstItem="PTd-lQ-r2W" firstAttribute="top" secondItem="GYj-gn-WH0" secondAttribute="bottom" constant="28" id="INQ-EY-yen"/>
+                            <constraint firstItem="a3F-7t-OYJ" firstAttribute="trailing" secondItem="PTd-lQ-r2W" secondAttribute="trailing" constant="36" id="LrC-KD-1xv"/>
+                            <constraint firstItem="GYj-gn-WH0" firstAttribute="top" secondItem="a3F-7t-OYJ" secondAttribute="top" constant="113" id="NNd-DX-cX7"/>
+                            <constraint firstItem="PTd-lQ-r2W" firstAttribute="width" secondItem="1MM-i7-Sml" secondAttribute="width" id="Ojy-AT-bu3"/>
+                            <constraint firstItem="1MM-i7-Sml" firstAttribute="top" secondItem="a3F-7t-OYJ" secondAttribute="top" constant="113" id="S0J-b7-wYj"/>
+                            <constraint firstItem="PTd-lQ-r2W" firstAttribute="height" secondItem="1MM-i7-Sml" secondAttribute="height" id="WXA-wF-ayi"/>
+                            <constraint firstItem="YgG-wW-Yx2" firstAttribute="width" secondItem="1MM-i7-Sml" secondAttribute="width" id="Z1m-27-AnX"/>
+                            <constraint firstItem="1MM-i7-Sml" firstAttribute="leading" secondItem="a3F-7t-OYJ" secondAttribute="leading" constant="45" id="gsa-LF-kc4"/>
+                            <constraint firstItem="GYj-gn-WH0" firstAttribute="leading" secondItem="1MM-i7-Sml" secondAttribute="trailing" constant="24" id="hrO-Gd-OfZ"/>
+                            <constraint firstItem="GYj-gn-WH0" firstAttribute="width" secondItem="1MM-i7-Sml" secondAttribute="width" id="jeb-ZY-aqa"/>
+                            <constraint firstItem="bLH-8I-fAy" firstAttribute="top" secondItem="YgG-wW-Yx2" secondAttribute="bottom" constant="191" id="usH-qA-IIh"/>
+                            <constraint firstItem="YgG-wW-Yx2" firstAttribute="top" secondItem="1MM-i7-Sml" secondAttribute="bottom" constant="28" id="yHF-TF-7tG"/>
+                            <constraint firstAttribute="bottom" secondItem="bLH-8I-fAy" secondAttribute="bottom" id="zwN-sI-CI8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="a3F-7t-OYJ"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DE8-oY-Vi0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524" y="75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oFG-0D-VIC">
+            <objects>
+                <viewController id="eDE-jd-wsW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rom-18-CMX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wZv-59-lcc">
+                                <rect key="frame" x="0.0" y="20" width="375" height="936"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmV-bU-hKa">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hks-74-Fu2">
+                                                <rect key="frame" x="0.0" y="32" width="375" height="261"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Visiting Colleges" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ayp-Xu-dX3">
+                                                        <rect key="frame" x="65" y="8" width="245" height="28"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="June - August" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCr-sW-xu7">
+                                                        <rect key="frame" x="113" y="44" width="149" height="22"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="CourierNewPS-ItalicMT" family="Courier New" pointSize="19"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJ5-KD-q6I">
+                                                        <rect key="frame" x="47" y="79" width="280" height="155"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">Visiting colleges is so important! It allows you to get a feel for possibilities are ahead of you and see what types of schools you may like!</string>
+                                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.7803921568627451" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2h6-xe-eLi">
+                                                <rect key="frame" x="0.0" y="628" width="375" height="302"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Snail's Pace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFZ-r7-B0c">
+                                                        <rect key="frame" x="101" y="8" width="173" height="28"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kv1-RZ-zOc">
+                                                        <rect key="frame" x="-7" y="44" width="374" height="238"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">-Visit the college's website  -Click on admissions   -Find visiting information  -Sign up for a date that works for you  -After the tour, walk around and explore campus on your own</string>
+                                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.94509803921568625" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eDv-IG-pFA">
+                                                <rect key="frame" x="0.0" y="308" width="375" height="302"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Questions to Ask" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9x-m7-3XN">
+                                                        <rect key="frame" x="72" y="8" width="231" height="28"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsn-Q4-M9A">
+                                                        <rect key="frame" x="-7" y="44" width="374" height="238"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <string key="text">-Do most students live on campus?  -What is the average class size?   -What do students do for fun?  -Are students involved in organizations and clubs?  -How often do TAs teach class? </string>
+                                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.9137254901960784" green="0.71372549019607845" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Hks-74-Fu2" secondAttribute="trailing" id="E8W-3U-ZwW"/>
+                                            <constraint firstAttribute="trailing" secondItem="eDv-IG-pFA" secondAttribute="trailing" id="REs-T1-fHg"/>
+                                            <constraint firstAttribute="height" constant="1000" id="nVe-Rt-Mfk"/>
+                                            <constraint firstAttribute="trailing" secondItem="2h6-xe-eLi" secondAttribute="trailing" id="tCL-OP-Prx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="VmV-bU-hKa" secondAttribute="bottom" id="9uZ-8p-iW7"/>
+                                    <constraint firstItem="VmV-bU-hKa" firstAttribute="top" secondItem="wZv-59-lcc" secondAttribute="top" id="GtX-By-c2u"/>
+                                    <constraint firstItem="VmV-bU-hKa" firstAttribute="leading" secondItem="wZv-59-lcc" secondAttribute="leading" id="kq5-L5-DDa"/>
+                                    <constraint firstAttribute="trailing" secondItem="VmV-bU-hKa" secondAttribute="trailing" id="lLB-CI-Mqd"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wZv-59-lcc" firstAttribute="top" secondItem="kJA-gC-RCW" secondAttribute="top" id="Gdt-EX-Efs"/>
+                            <constraint firstItem="wZv-59-lcc" firstAttribute="leading" secondItem="kJA-gC-RCW" secondAttribute="leading" id="TCO-3W-Lcy"/>
+                            <constraint firstItem="wZv-59-lcc" firstAttribute="trailing" secondItem="kJA-gC-RCW" secondAttribute="trailing" id="Vs9-N7-3Jm"/>
+                            <constraint firstItem="wZv-59-lcc" firstAttribute="bottom" secondItem="kJA-gC-RCW" secondAttribute="bottom" id="pLU-cT-8Qj"/>
+                            <constraint firstItem="VmV-bU-hKa" firstAttribute="width" secondItem="Rom-18-CMX" secondAttribute="width" id="qfg-wp-riO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kJA-gC-RCW"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ETW-dv-vNz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1333.5999999999999" y="81.859070464767626"/>
         </scene>
     </scenes>
 </document>
