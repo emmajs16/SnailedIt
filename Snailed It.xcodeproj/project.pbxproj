@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E0A4BA211B7B09007D2697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0A4B9211B7B09007D2697 /* AppDelegate.swift */; };
+		03E0A4BC211B7B09007D2697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0A4BB211B7B09007D2697 /* ViewController.swift */; };
+		03E0A4BF211B7B09007D2697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0A4BD211B7B09007D2697 /* Main.storyboard */; };
+		03E0A4C2211B7B09007D2697 /* Snailed_It.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03E0A4C0211B7B09007D2697 /* Snailed_It.xcdatamodeld */; };
+		03E0A4C4211B7B0A007D2697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E0A4C3211B7B0A007D2697 /* Assets.xcassets */; };
+		03E0A4C7211B7B0A007D2697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0A4C5211B7B0A007D2697 /* LaunchScreen.storyboard */; };
+		03E0A4D2211B7B0B007D2697 /* Snailed_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0A4D1211B7B0B007D2697 /* Snailed_ItTests.swift */; };
+		03E0A4DD211B7B0B007D2697 /* Snailed_ItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0A4DC211B7B0B007D2697 /* Snailed_ItUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03E0A4CE211B7B0B007D2697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E0A4AE211B7B09007D2697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E0A4B5211B7B09007D2697;
+			remoteInfo = "Snailed It";
+		};
+		03E0A4D9211B7B0B007D2697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E0A4AE211B7B09007D2697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E0A4B5211B7B09007D2697;
+			remoteInfo = "Snailed It";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E0A4B6211B7B09007D2697 /* Snailed It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snailed It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0A4B9211B7B09007D2697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03E0A4BB211B7B09007D2697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03E0A4BE211B7B09007D2697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E0A4C1211B7B09007D2697 /* Snailed_It.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Snailed_It.xcdatamodel; sourceTree = "<group>"; };
+		03E0A4C3211B7B0A007D2697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E0A4C6211B7B0A007D2697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E0A4C8211B7B0A007D2697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E0A4CD211B7B0B007D2697 /* Snailed ItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snailed ItTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0A4D1211B7B0B007D2697 /* Snailed_ItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snailed_ItTests.swift; sourceTree = "<group>"; };
+		03E0A4D3211B7B0B007D2697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E0A4D8211B7B0B007D2697 /* Snailed ItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snailed ItUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0A4DC211B7B0B007D2697 /* Snailed_ItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snailed_ItUITests.swift; sourceTree = "<group>"; };
+		03E0A4DE211B7B0B007D2697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E0A4B3211B7B09007D2697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0A4CA211B7B0B007D2697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0A4D5211B7B0B007D2697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E0A4AD211B7B09007D2697 = {
+			isa = PBXGroup;
+			children = (
+				03E0A4B8211B7B09007D2697 /* Snailed It */,
+				03E0A4D0211B7B0B007D2697 /* Snailed ItTests */,
+				03E0A4DB211B7B0B007D2697 /* Snailed ItUITests */,
+				03E0A4B7211B7B09007D2697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E0A4B7211B7B09007D2697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E0A4B6211B7B09007D2697 /* Snailed It.app */,
+				03E0A4CD211B7B0B007D2697 /* Snailed ItTests.xctest */,
+				03E0A4D8211B7B0B007D2697 /* Snailed ItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E0A4B8211B7B09007D2697 /* Snailed It */ = {
+			isa = PBXGroup;
+			children = (
+				03E0A4B9211B7B09007D2697 /* AppDelegate.swift */,
+				03E0A4BB211B7B09007D2697 /* ViewController.swift */,
+				03E0A4BD211B7B09007D2697 /* Main.storyboard */,
+				03E0A4C3211B7B0A007D2697 /* Assets.xcassets */,
+				03E0A4C5211B7B0A007D2697 /* LaunchScreen.storyboard */,
+				03E0A4C8211B7B0A007D2697 /* Info.plist */,
+				03E0A4C0211B7B09007D2697 /* Snailed_It.xcdatamodeld */,
+			);
+			path = "Snailed It";
+			sourceTree = "<group>";
+		};
+		03E0A4D0211B7B0B007D2697 /* Snailed ItTests */ = {
+			isa = PBXGroup;
+			children = (
+				03E0A4D1211B7B0B007D2697 /* Snailed_ItTests.swift */,
+				03E0A4D3211B7B0B007D2697 /* Info.plist */,
+			);
+			path = "Snailed ItTests";
+			sourceTree = "<group>";
+		};
+		03E0A4DB211B7B0B007D2697 /* Snailed ItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03E0A4DC211B7B0B007D2697 /* Snailed_ItUITests.swift */,
+				03E0A4DE211B7B0B007D2697 /* Info.plist */,
+			);
+			path = "Snailed ItUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E0A4B5211B7B09007D2697 /* Snailed It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0A4E1211B7B0B007D2697 /* Build configuration list for PBXNativeTarget "Snailed It" */;
+			buildPhases = (
+				03E0A4B2211B7B09007D2697 /* Sources */,
+				03E0A4B3211B7B09007D2697 /* Frameworks */,
+				03E0A4B4211B7B09007D2697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snailed It";
+			productName = "Snailed It";
+			productReference = 03E0A4B6211B7B09007D2697 /* Snailed It.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03E0A4CC211B7B0B007D2697 /* Snailed ItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0A4E4211B7B0B007D2697 /* Build configuration list for PBXNativeTarget "Snailed ItTests" */;
+			buildPhases = (
+				03E0A4C9211B7B0B007D2697 /* Sources */,
+				03E0A4CA211B7B0B007D2697 /* Frameworks */,
+				03E0A4CB211B7B0B007D2697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E0A4CF211B7B0B007D2697 /* PBXTargetDependency */,
+			);
+			name = "Snailed ItTests";
+			productName = "Snailed ItTests";
+			productReference = 03E0A4CD211B7B0B007D2697 /* Snailed ItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03E0A4D7211B7B0B007D2697 /* Snailed ItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0A4E7211B7B0B007D2697 /* Build configuration list for PBXNativeTarget "Snailed ItUITests" */;
+			buildPhases = (
+				03E0A4D4211B7B0B007D2697 /* Sources */,
+				03E0A4D5211B7B0B007D2697 /* Frameworks */,
+				03E0A4D6211B7B0B007D2697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E0A4DA211B7B0B007D2697 /* PBXTargetDependency */,
+			);
+			name = "Snailed ItUITests";
+			productName = "Snailed ItUITests";
+			productReference = 03E0A4D8211B7B0B007D2697 /* Snailed ItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E0A4AE211B7B09007D2697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kode With Klossy";
+				TargetAttributes = {
+					03E0A4B5211B7B09007D2697 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					03E0A4CC211B7B0B007D2697 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03E0A4B5211B7B09007D2697;
+					};
+					03E0A4D7211B7B0B007D2697 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03E0A4B5211B7B09007D2697;
+					};
+				};
+			};
+			buildConfigurationList = 03E0A4B1211B7B09007D2697 /* Build configuration list for PBXProject "Snailed It" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E0A4AD211B7B09007D2697;
+			productRefGroup = 03E0A4B7211B7B09007D2697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E0A4B5211B7B09007D2697 /* Snailed It */,
+				03E0A4CC211B7B0B007D2697 /* Snailed ItTests */,
+				03E0A4D7211B7B0B007D2697 /* Snailed ItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E0A4B4211B7B09007D2697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0A4C7211B7B0A007D2697 /* LaunchScreen.storyboard in Resources */,
+				03E0A4C4211B7B0A007D2697 /* Assets.xcassets in Resources */,
+				03E0A4BF211B7B09007D2697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0A4CB211B7B0B007D2697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0A4D6211B7B0B007D2697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E0A4B2211B7B09007D2697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0A4BC211B7B09007D2697 /* ViewController.swift in Sources */,
+				03E0A4BA211B7B09007D2697 /* AppDelegate.swift in Sources */,
+				03E0A4C2211B7B09007D2697 /* Snailed_It.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0A4C9211B7B0B007D2697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0A4D2211B7B0B007D2697 /* Snailed_ItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0A4D4211B7B0B007D2697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0A4DD211B7B0B007D2697 /* Snailed_ItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E0A4CF211B7B0B007D2697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E0A4B5211B7B09007D2697 /* Snailed It */;
+			targetProxy = 03E0A4CE211B7B0B007D2697 /* PBXContainerItemProxy */;
+		};
+		03E0A4DA211B7B0B007D2697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E0A4B5211B7B09007D2697 /* Snailed It */;
+			targetProxy = 03E0A4D9211B7B0B007D2697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03E0A4BD211B7B09007D2697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E0A4BE211B7B09007D2697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E0A4C5211B7B0A007D2697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E0A4C6211B7B0A007D2697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E0A4DF211B7B0B007D2697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03E0A4E0211B7B0B007D2697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E0A4E2211B7B0B007D2697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snailed It/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma.Snailed-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03E0A4E3211B7B0B007D2697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snailed It/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma.Snailed-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03E0A4E5211B7B0B007D2697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snailed ItTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma.Snailed-ItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snailed It.app/Snailed It";
+			};
+			name = Debug;
+		};
+		03E0A4E6211B7B0B007D2697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snailed ItTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma.Snailed-ItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snailed It.app/Snailed It";
+			};
+			name = Release;
+		};
+		03E0A4E8211B7B0B007D2697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snailed ItUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma.Snailed-ItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snailed It";
+			};
+			name = Debug;
+		};
+		03E0A4E9211B7B0B007D2697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snailed ItUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma.Snailed-ItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snailed It";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E0A4B1211B7B09007D2697 /* Build configuration list for PBXProject "Snailed It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0A4DF211B7B0B007D2697 /* Debug */,
+				03E0A4E0211B7B0B007D2697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0A4E1211B7B0B007D2697 /* Build configuration list for PBXNativeTarget "Snailed It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0A4E2211B7B0B007D2697 /* Debug */,
+				03E0A4E3211B7B0B007D2697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0A4E4211B7B0B007D2697 /* Build configuration list for PBXNativeTarget "Snailed ItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0A4E5211B7B0B007D2697 /* Debug */,
+				03E0A4E6211B7B0B007D2697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0A4E7211B7B0B007D2697 /* Build configuration list for PBXNativeTarget "Snailed ItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0A4E8211B7B0B007D2697 /* Debug */,
+				03E0A4E9211B7B0B007D2697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03E0A4C0211B7B09007D2697 /* Snailed_It.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03E0A4C1211B7B09007D2697 /* Snailed_It.xcdatamodel */,
+			);
+			currentVersion = 03E0A4C1211B7B09007D2697 /* Snailed_It.xcdatamodel */;
+			path = Snailed_It.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03E0A4AE211B7B09007D2697 /* Project object */;
+}
