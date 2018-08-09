@@ -22,29 +22,33 @@
                                 <rect key="frame" x="45" y="131" width="291" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="44"/>
-                                <color key="textColor" red="0.83921568627450982" green="0.396078431372549" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbt-44-DIr">
-                                <rect key="frame" x="102" y="353" width="172" height="42"/>
+                                <rect key="frame" x="103" y="354" width="172" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="26"/>
                                 <state key="normal" title="Get Started">
-                                    <color key="titleColor" red="0.25882352941176467" green="0.15686274509803921" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.3411764705882353" green="0.58431372549019611" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="b6B-mW-Qdg" kind="presentation" id="06z-6D-k8U"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snail" translatesAutoresizingMaskIntoConstraints="NO" id="HYb-tI-pRp">
+                                <rect key="frame" x="0.0" y="558" width="126" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The college process is long, but we will guide you at a snail's pace!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvY-Wt-j5z">
-                                <rect key="frame" x="36" y="258.5" width="302" height="19.5"/>
+                                <rect key="frame" x="39" y="209" width="302" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                <color key="textColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.96862745098039216" green="0.95294117647058818" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.11372549019607843" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -62,14 +66,14 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1MM-i7-Sml">
                                 <rect key="frame" x="45" y="133" width="135" height="135"/>
-                                <color key="backgroundColor" red="0.69019607843137254" green="0.90980392156862744" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.3411764705882353" green="0.58431372549019611" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="135" id="MhS-NM-txG"/>
                                     <constraint firstAttribute="width" constant="135" id="bjx-Tb-7CG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="15"/>
                                 <state key="normal" title="Visit Colleges">
-                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="eDE-jd-wsW" kind="show" id="Org-0q-gnh"/>
@@ -77,14 +81,14 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgG-wW-Yx2">
                                 <rect key="frame" x="45" y="296" width="135" height="135"/>
-                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="135" id="S69-qo-toZ"/>
                                     <constraint firstAttribute="width" constant="135" id="mtg-W7-hsm"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="15"/>
                                 <state key="normal" title="Start Essay">
-                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="l3q-pq-6W4" kind="show" id="LsG-G6-u0F"/>
@@ -92,14 +96,14 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYj-gn-WH0">
                                 <rect key="frame" x="204" y="133" width="135" height="135"/>
-                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="135" id="U2q-Uw-Nki"/>
                                     <constraint firstAttribute="width" constant="135" id="eUT-1A-rmk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="15"/>
                                 <state key="normal" title="Take ACT/SAT">
-                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="xev-8Y-PTS" kind="show" id="ZeO-fF-Ba5"/>
@@ -107,7 +111,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PTd-lQ-r2W">
                                 <rect key="frame" x="204" y="296" width="135" height="135"/>
-                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="135" id="4Ou-JL-W4G"/>
                                     <constraint firstAttribute="width" constant="135" id="NpU-2O-51N"/>
@@ -116,8 +120,8 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Finalize College List">
                                             <attributes>
-                                                <color key="NSColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="15" name="CourierNewPSMT"/>
+                                                <color key="NSColor" red="0.98269258199449538" green="1" blue="0.95187864330988892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="15" name="CourierNewPS-BoldMT"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -129,7 +133,7 @@
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLH-8I-fAy">
                                 <rect key="frame" x="0.0" y="622" width="375" height="45"/>
-                                <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.3411764705882353" green="0.58431372549019611" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Wh8-9u-r9b"/>
                                 </constraints>
@@ -144,11 +148,18 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="kSq-HM-dCM"/>
                                     <barButtonItem title="Summer" id="lDF-WF-LZA"/>
                                 </items>
-                                <color key="tintColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="barTintColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.99411427712823586" green="1" blue="0.99657343638991158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snail" translatesAutoresizingMaskIntoConstraints="NO" id="Hd4-ki-J8C">
+                                <rect key="frame" x="0.0" y="582" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="4h7-qD-6he"/>
+                                    <constraint firstAttribute="height" constant="40" id="k2O-Gz-ye5"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96862745098039216" green="0.95294117647058818" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.11372549019607843" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="PTd-lQ-r2W" firstAttribute="leading" secondItem="YgG-wW-Yx2" secondAttribute="trailing" constant="24" id="1YP-wd-6Lk"/>
                             <constraint firstItem="GYj-gn-WH0" firstAttribute="height" secondItem="1MM-i7-Sml" secondAttribute="height" id="49g-Pm-46F"/>
@@ -158,8 +169,10 @@
                             <constraint firstItem="a3F-7t-OYJ" firstAttribute="trailing" secondItem="GYj-gn-WH0" secondAttribute="trailing" constant="36" id="DmV-hj-H6U"/>
                             <constraint firstAttribute="trailing" secondItem="bLH-8I-fAy" secondAttribute="trailing" id="GwD-d3-OWf"/>
                             <constraint firstItem="PTd-lQ-r2W" firstAttribute="top" secondItem="GYj-gn-WH0" secondAttribute="bottom" constant="28" id="INQ-EY-yen"/>
+                            <constraint firstItem="bLH-8I-fAy" firstAttribute="top" secondItem="Hd4-ki-J8C" secondAttribute="bottom" id="JrI-Re-BEE"/>
                             <constraint firstItem="a3F-7t-OYJ" firstAttribute="trailing" secondItem="PTd-lQ-r2W" secondAttribute="trailing" constant="36" id="LrC-KD-1xv"/>
                             <constraint firstItem="GYj-gn-WH0" firstAttribute="top" secondItem="a3F-7t-OYJ" secondAttribute="top" constant="113" id="NNd-DX-cX7"/>
+                            <constraint firstItem="Hd4-ki-J8C" firstAttribute="leading" secondItem="a3F-7t-OYJ" secondAttribute="leading" id="OQ5-XF-a9G"/>
                             <constraint firstItem="PTd-lQ-r2W" firstAttribute="width" secondItem="1MM-i7-Sml" secondAttribute="width" id="Ojy-AT-bu3"/>
                             <constraint firstItem="1MM-i7-Sml" firstAttribute="top" secondItem="a3F-7t-OYJ" secondAttribute="top" constant="113" id="S0J-b7-wYj"/>
                             <constraint firstItem="PTd-lQ-r2W" firstAttribute="height" secondItem="1MM-i7-Sml" secondAttribute="height" id="WXA-wF-ayi"/>
@@ -167,6 +180,7 @@
                             <constraint firstItem="1MM-i7-Sml" firstAttribute="leading" secondItem="a3F-7t-OYJ" secondAttribute="leading" constant="45" id="gsa-LF-kc4"/>
                             <constraint firstItem="GYj-gn-WH0" firstAttribute="leading" secondItem="1MM-i7-Sml" secondAttribute="trailing" constant="24" id="hrO-Gd-OfZ"/>
                             <constraint firstItem="GYj-gn-WH0" firstAttribute="width" secondItem="1MM-i7-Sml" secondAttribute="width" id="jeb-ZY-aqa"/>
+                            <constraint firstItem="a3F-7t-OYJ" firstAttribute="trailing" secondItem="Hd4-ki-J8C" secondAttribute="trailing" constant="335" id="kbH-aB-Vka"/>
                             <constraint firstItem="bLH-8I-fAy" firstAttribute="top" secondItem="YgG-wW-Yx2" secondAttribute="bottom" constant="191" id="usH-qA-IIh"/>
                             <constraint firstItem="YgG-wW-Yx2" firstAttribute="top" secondItem="1MM-i7-Sml" secondAttribute="bottom" constant="28" id="yHF-TF-7tG"/>
                             <constraint firstAttribute="bottom" secondItem="bLH-8I-fAy" secondAttribute="bottom" id="zwN-sI-CI8"/>
@@ -178,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DE8-oY-Vi0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524" y="75"/>
+            <point key="canvasLocation" x="524" y="74.212893553223395"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oFG-0D-VIC">
@@ -200,7 +214,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Questions to Ask" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9x-m7-3XN">
                                                         <rect key="frame" x="72" y="8" width="231" height="28"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsn-Q4-M9A">
@@ -210,11 +224,11 @@
                                                         </constraints>
                                                         <string key="text">-Do most students live on campus?  -What is the average class size?   -What do students do for fun?  -Are students involved in organizations and clubs?  -How often do TAs teach class? </string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.9137254901960784" green="0.71372549019607845" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="wsn-Q4-M9A" firstAttribute="leading" secondItem="eDv-IG-pFA" secondAttribute="leading" constant="24" id="5Yi-7p-QRc"/>
                                                     <constraint firstItem="G9x-m7-3XN" firstAttribute="top" secondItem="eDv-IG-pFA" secondAttribute="top" constant="8" id="Lh6-oN-Kul"/>
@@ -238,17 +252,17 @@
                                                         </constraints>
                                                         <string key="text">-Visit the college's website  -Click on admissions   -Find visiting information  -Sign up for a date that works for you  -After the tour, walk around and explore campus on your own</string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snail's Pace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFZ-r7-B0c">
                                                         <rect key="frame" x="101" y="-19" width="173" height="88"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.94509803921568625" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.13725490196078433" green="0.19215686274509802" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="Kv1-RZ-zOc" secondAttribute="bottom" constant="32" id="7fD-2X-8lP"/>
                                                     <constraint firstAttribute="width" constant="375" id="9hJ-P2-FhG"/>
@@ -267,13 +281,13 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="June - August" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCr-sW-xu7">
                                                         <rect key="frame" x="113" y="44" width="149" height="22"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-ItalicMT" family="Courier New" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visiting Colleges" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ayp-Xu-dX3">
                                                         <rect key="frame" x="65" y="8" width="245" height="28"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJ5-KD-q6I">
@@ -284,11 +298,11 @@
                                                         </constraints>
                                                         <string key="text">Visiting colleges is so important! It allows you to get a feel for possibilities are ahead of you and see what types of schools you may like!</string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.1019607843" green="0.1137254902" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="261" id="1j7-0H-fcT"/>
                                                     <constraint firstAttribute="bottom" secondItem="RJ5-KD-q6I" secondAttribute="bottom" constant="21" id="2vV-YG-Hgj"/>
@@ -308,21 +322,21 @@
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8MW-7M-nce">
                                                 <rect key="frame" x="124" y="940" width="127" height="55"/>
-                                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="127" id="PWB-L7-kNA"/>
                                                     <constraint firstAttribute="height" constant="55" id="Vo2-pp-nPR"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="21"/>
                                                 <state key="normal" title="Complete">
-                                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="b6B-mW-Qdg" kind="show" id="szK-Bi-g3g"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.1019607843" green="0.1137254902" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="Hks-74-Fu2" firstAttribute="leading" secondItem="VmV-bU-hKa" secondAttribute="leading" id="2de-5k-IJe"/>
                                             <constraint firstItem="Kv1-RZ-zOc" firstAttribute="width" secondItem="wsn-Q4-M9A" secondAttribute="width" id="7gn-33-D3T"/>
@@ -387,7 +401,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important Terms " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwn-eu-6hD">
                                                         <rect key="frame" x="72" y="8" width="231" height="28"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7t2-DC-9jX">
@@ -397,11 +411,11 @@
                                                         </constraints>
                                                         <mutableString key="text">ACT- This test has math, science, reading, and english sections with an optional writing portion.   SAT- This test has reading, english, and two math sections.   SuperScore- The process in which colleges consider your highest section scores across all of your test dates to form the highest composite score.  </mutableString>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.91372549020000005" green="0.71372549019999998" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="7t2-DC-9jX" firstAttribute="top" secondItem="OvS-j3-G4A" secondAttribute="top" constant="24" id="2on-gh-Qaj"/>
                                                     <constraint firstItem="nwn-eu-6hD" firstAttribute="leading" secondItem="OvS-j3-G4A" secondAttribute="leading" constant="72" id="9hI-XP-U2K"/>
@@ -425,17 +439,17 @@
                                                         </constraints>
                                                         <string key="text">-Sign up on ACT.org or CollegeBoard.org  -Study on your own, find a tutor, or take a class to prepare   -Bring your Photo ID, Two number 2 pencils, a calculator, and a good eraser  -Wait about six weeks for results</string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snail's Pace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBs-i4-nyy">
                                                         <rect key="frame" x="101" y="-19" width="173" height="88"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.94509803920000002" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.13725490200000001" green="0.19215686269999999" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="302" id="0Ir-fF-Z26"/>
                                                     <constraint firstItem="kCH-av-L4c" firstAttribute="leading" secondItem="RHC-7P-Lsg" secondAttribute="leading" constant="18" id="1lv-fV-8cf"/>
@@ -454,13 +468,13 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="June - July" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVO-Qe-ajR">
                                                         <rect key="frame" x="113" y="44" width="149" height="22"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-ItalicMT" family="Courier New" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take ACT/SAT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvQ-aT-CBH">
                                                         <rect key="frame" x="65" y="8" width="245" height="28"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3u-U6-CUd">
@@ -471,11 +485,11 @@
                                                         </constraints>
                                                         <string key="text">The ACT/SAT was designed to predict your college readiness. Check your schools to see if they accept both or just one of the tests. </string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.1019607843" green="0.1137254902" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="375" id="OTt-bb-Wbo"/>
                                                     <constraint firstItem="iVO-Qe-ajR" firstAttribute="top" secondItem="SvQ-aT-CBH" secondAttribute="bottom" constant="8" id="awo-qM-5QN"/>
@@ -495,21 +509,21 @@
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kM2-um-vui">
                                                 <rect key="frame" x="124" y="940" width="127" height="55"/>
-                                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="eE3-qR-YKn"/>
                                                     <constraint firstAttribute="width" constant="127" id="fzh-85-kxK"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="21"/>
                                                 <state key="normal" title="Complete">
-                                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="b6B-mW-Qdg" kind="show" id="eYh-YF-Gn8"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.1019607843" green="0.1137254902" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="RHC-7P-Lsg" firstAttribute="top" secondItem="kFw-2I-WSb" secondAttribute="bottom" constant="339" id="4Xh-iN-vvj"/>
                                             <constraint firstAttribute="bottom" secondItem="kM2-um-vui" secondAttribute="bottom" constant="5" id="8ey-Es-X1N"/>
@@ -574,7 +588,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suggested Topics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEO-Fm-Gge">
                                                         <rect key="frame" x="72" y="8" width="231" height="28"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JS6-TH-4lB">
@@ -584,11 +598,11 @@
                                                         </constraints>
                                                         <string key="text">-A challenge you overcame  -Favorite book character  -Why you want to go to the college   -An event or accomplishment that resulted in personal growth  -A hobby you are passionate about</string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.91372549020000005" green="0.71372549019999998" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="GEO-Fm-Gge" firstAttribute="leading" secondItem="Yb6-Qd-JMI" secondAttribute="leading" constant="72" id="3dY-71-MDw"/>
                                                     <constraint firstItem="JS6-TH-4lB" firstAttribute="top" secondItem="Yb6-Qd-JMI" secondAttribute="top" constant="24" id="54B-dK-M91"/>
@@ -608,7 +622,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snail's Pace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vr-ee-EbP">
                                                         <rect key="frame" x="101" y="-19" width="173" height="88"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jA7-jx-jNb">
@@ -618,11 +632,11 @@
                                                         </constraints>
                                                         <string key="text">-Create a document for every college essay  -Check each school's essay requirements, like length or topic   -Plan out your essay and begin typing  -Make sure to edit it and have multiple people review it</string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.94509803920000002" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.13725490200000001" green="0.19215686269999999" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="0Vr-ee-EbP" secondAttribute="bottom" constant="233" id="3By-Z9-aQ5"/>
                                                     <constraint firstAttribute="height" constant="302" id="GZm-Iw-VhS"/>
@@ -641,7 +655,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Essay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4L9-7J-2hY">
                                                         <rect key="frame" x="65" y="8" width="245" height="28"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The essay allows colleges to get to know you more personally and to preview your writing." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Po5-b2-EHl">
@@ -651,17 +665,17 @@
                                                             <constraint firstAttribute="height" constant="155" id="5Zk-jn-NFU"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="June - September" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVN-Pu-DyX">
                                                         <rect key="frame" x="80" y="44" width="215" height="22"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-ItalicMT" family="Courier New" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.1019607843" green="0.1137254902" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="Po5-b2-EHl" firstAttribute="top" secondItem="BVN-Pu-DyX" secondAttribute="bottom" constant="19" id="E0m-ZB-oVN"/>
                                                     <constraint firstItem="Po5-b2-EHl" firstAttribute="top" secondItem="BVN-Pu-DyX" secondAttribute="bottom" constant="19" id="JDc-UX-5qR"/>
@@ -681,21 +695,21 @@
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaJ-Ys-xsW">
                                                 <rect key="frame" x="124" y="940" width="127" height="55"/>
-                                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="98b-N9-3N2"/>
                                                     <constraint firstAttribute="width" constant="127" id="rr8-le-ssT"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="21"/>
                                                 <state key="normal" title="Complete">
-                                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="b6B-mW-Qdg" kind="show" id="C0U-Hm-7EO"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.1019607843" green="0.1137254902" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="Jw3-24-eE4" firstAttribute="top" secondItem="uHf-IK-ROu" secondAttribute="top" constant="26" id="3KU-UT-Uxe"/>
                                             <constraint firstItem="Q7V-h6-fzS" firstAttribute="top" secondItem="Jw3-24-eE4" secondAttribute="bottom" constant="339" id="7LB-Db-P5p"/>
@@ -760,7 +774,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Things to Consider" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cws-Kt-YFy">
                                                         <rect key="frame" x="48" y="8" width="278" height="28"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuH-aZ-AZa">
@@ -774,11 +788,11 @@
 -Distance from home  -Financial Aid  -Local community  -Extracurriculars   
 </string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.91372549020000005" green="0.71372549019999998" blue="0.63529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="yuH-aZ-AZa" secondAttribute="trailing" constant="25" id="3H8-t2-mmO"/>
                                                     <constraint firstItem="yuH-aZ-AZa" firstAttribute="top" secondItem="ufE-re-2hp" secondAttribute="top" constant="24" id="9KY-KP-b92"/>
@@ -798,7 +812,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snail's Pace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XiS-j1-e7O">
                                                         <rect key="frame" x="101" y="-19" width="173" height="88"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMb-p4-09u">
@@ -812,11 +826,11 @@
 -Talk with your parents about the right choice
 </string>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.94509803920000002" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.13725490200000001" green="0.19215686269999999" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="bMb-p4-09u" secondAttribute="trailing" constant="18" id="DFT-zn-4k4"/>
                                                     <constraint firstAttribute="height" constant="302" id="LLX-06-aWP"/>
@@ -835,7 +849,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="June - July" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbE-dj-chk">
                                                         <rect key="frame" x="113" y="64" width="149" height="22"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-ItalicMT" family="Courier New" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Having a list of your top schools will help you when you begin to officially apply." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdf-R4-SPZ">
@@ -845,17 +859,17 @@
                                                             <constraint firstAttribute="height" constant="155" id="nvk-Ue-RQb"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Finalize College List" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCz-Rc-lV8">
                                                         <rect key="frame" x="50" y="0.0" width="275" height="58"/>
                                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="24"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" red="0.9941142771" green="1" blue="0.99657343639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.1019607843" green="0.1137254902" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="dbE-dj-chk" secondAttribute="trailing" constant="113" id="3ID-Cl-OwH"/>
                                                     <constraint firstItem="kdf-R4-SPZ" firstAttribute="leading" secondItem="S6U-uL-1GQ" secondAttribute="leading" constant="47" id="7LI-av-uMA"/>
@@ -874,21 +888,21 @@
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pz9-Kp-fqv">
                                                 <rect key="frame" x="124" y="940" width="127" height="55"/>
-                                                <color key="backgroundColor" red="0.69019607839999997" green="0.90980392160000001" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3411764706" green="0.58431372550000005" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="L0X-Jt-tWW"/>
                                                     <constraint firstAttribute="width" constant="127" id="coK-0i-RDw"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="21"/>
                                                 <state key="normal" title="Complete">
-                                                    <color key="titleColor" red="0.25882352939999997" green="0.15686274510000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="b6B-mW-Qdg" kind="show" id="6A8-2r-1YP"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96862745100000003" green="0.95294117649999999" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.1019607843" green="0.1137254902" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="bMb-p4-09u" firstAttribute="width" secondItem="yuH-aZ-AZa" secondAttribute="width" id="0B6-vd-Isn"/>
                                             <constraint firstItem="Pz9-Kp-fqv" firstAttribute="leading" secondItem="uHx-42-ddn" secondAttribute="leading" constant="124" id="1pB-fE-lRL"/>
@@ -934,7 +948,11 @@
             <point key="canvasLocation" x="3613.5999999999999" y="81.859070464767626"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="snail" width="106" height="96"/>
+    </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="v6c-Qi-he1"/>
         <segue reference="6A8-2r-1YP"/>
     </inferredMetricsTieBreakers>
 </document>
