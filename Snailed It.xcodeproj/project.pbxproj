@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03DAB528211DD49500422B56 /* firstSummerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DAB527211DD49500422B56 /* firstSummerViewController.swift */; };
+		03DAB52A211DD4FC00422B56 /* visitCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DAB529211DD4FC00422B56 /* visitCollegeViewController.swift */; };
 		03E0A4BA211B7B09007D2697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0A4B9211B7B09007D2697 /* AppDelegate.swift */; };
 		03E0A4BC211B7B09007D2697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0A4BB211B7B09007D2697 /* ViewController.swift */; };
 		03E0A4BF211B7B09007D2697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0A4BD211B7B09007D2697 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03DAB527211DD49500422B56 /* firstSummerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstSummerViewController.swift; sourceTree = "<group>"; };
+		03DAB529211DD4FC00422B56 /* visitCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitCollegeViewController.swift; sourceTree = "<group>"; };
 		03E0A4B6211B7B09007D2697 /* Snailed It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snailed It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0A4B9211B7B09007D2697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E0A4BB211B7B09007D2697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		03E0A4AD211B7B09007D2697 = {
 			isa = PBXGroup;
 			children = (
+				03DAB527211DD49500422B56 /* firstSummerViewController.swift */,
+				03DAB529211DD4FC00422B56 /* visitCollegeViewController.swift */,
 				03E0A4B8211B7B09007D2697 /* Snailed It */,
 				03E0A4D0211B7B0B007D2697 /* Snailed ItTests */,
 				03E0A4DB211B7B0B007D2697 /* Snailed ItUITests */,
@@ -261,7 +267,9 @@
 			files = (
 				03E0A4BC211B7B09007D2697 /* ViewController.swift in Sources */,
 				03E0A4BA211B7B09007D2697 /* AppDelegate.swift in Sources */,
+				03DAB528211DD49500422B56 /* firstSummerViewController.swift in Sources */,
 				03E0A4C2211B7B09007D2697 /* Snailed_It.xcdatamodeld in Sources */,
+				03DAB52A211DD4FC00422B56 /* visitCollegeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
